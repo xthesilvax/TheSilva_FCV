@@ -19,6 +19,8 @@
 
 -- MOD BY TheSilva#4495
 
+TheSilva = {}
+
 TheSilva.everyoneAllowed = false -- true = everyone is allowed || false = use steamIDs and IPs listed in allowed
 
 TheSilva.AllowedList = { 
