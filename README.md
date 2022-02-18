@@ -18,7 +18,7 @@ If you are in a vehicle you can repair it with the **/fix** command or clean it 
 - Refined /fix’s functionality
 
 ### v1.0 [Modified]
-- Add a config file
+- Add a config file [](https://prnt.sc/c_KNQ1EpqggF)
 
 # Made with ❤ by [TheSilva#4495](https://github.com/thesilvaofficial)
 
