@@ -1,25 +1,27 @@
-RegisterNetEvent('murtaza:fix')
-AddEventHandler('murtaza:fix', function()
+RegisterNetEvent('thesilva:fix')
+AddEventHandler('thesilva:fix', function()
 	local playerPed = GetPlayerPed(-1)
 	if IsPedInAnyVehicle(playerPed, false) then
 		local vehicle = GetVehiclePedIsIn(playerPed, false)
 		SetVehicleEngineHealth(vehicle, 1000)
 		SetVehicleEngineOn( vehicle, true, true )
 		SetVehicleFixed(vehicle)
+		notification("~r~Carro reparado")
 	end
 end)
 
-RegisterNetEvent('murtaza:clean')
-AddEventHandler('murtaza:clean', function()
+RegisterNetEvent('thesilva:clean')
+AddEventHandler('thesilva:clean', function()
 	local playerPed = GetPlayerPed(-1)
 	if IsPedInAnyVehicle(playerPed, false) then
 		local vehicle = GetVehiclePedIsIn(playerPed, false)
 		SetVehicleDirtLevel(vehicle, 0)
+		notification("~r~Carro limpo")
 	end
 end)
 
-RegisterNetEvent('murtaza:noPerms')
-AddEventHandler('murtaza:noPerms', function()
+RegisterNetEvent('thesilva:noPerms')
+AddEventHandler('thesilva:noPerms', function()
 	notification("~r~You don't have permissions to do this to your vehicle.")
 end)
 
