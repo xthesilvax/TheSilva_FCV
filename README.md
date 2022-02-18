@@ -9,7 +9,11 @@ Just put it in the base and start the script in the "server.cfg" file.
 If you are in a vehicle you can repair it with the /fix command or clean it with the /clean command.
 
 ## Change Log
-### v1.2.5 (Murfasa)
+### v1.2.5 [Original] (Murfasa)
 - Added whitelist for steamIDs and IPs
 - Added /clean command
 - Refined /fix’s functionality
+
+### v1.0 [Modified]
+- Add a config file
+
