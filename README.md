@@ -6,6 +6,5 @@ Just put it in the base and start the script in the "server.cfg" file.
 ## Usage
 If you are in a vehicle you can repair it with the /fix command or clean it with the /clean command.
 
-##Change Log
-
+## Change Log
 ### v1.0
