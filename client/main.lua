@@ -6,7 +6,9 @@ AddEventHandler('thesilva:fix', function()
 		SetVehicleEngineHealth(vehicle, 1000)
 		SetVehicleEngineOn( vehicle, true, true )
 		SetVehicleFixed(vehicle)
-		notification("~r~Carro reparado")
+		notification("~g~Your vehicle has been fixed!")
+	else
+		notification("~o~You're not in a vehicle! There is no vehicle to fix!")
 	end
 end)
 
@@ -16,7 +18,9 @@ AddEventHandler('thesilva:clean', function()
 	if IsPedInAnyVehicle(playerPed, false) then
 		local vehicle = GetVehiclePedIsIn(playerPed, false)
 		SetVehicleDirtLevel(vehicle, 0)
-		notification("~r~Carro limpo")
+		notification("~b~Your vehicle has been cleaned!")
+	else
+		notification("~o~You're not in a vehicle! There is no vehicle to clean!")
 	end
 end)
 
