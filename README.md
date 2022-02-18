@@ -10,6 +10,6 @@ If you are in a vehicle you can repair it with the /fix command or clean it with
 
 ## Change Log
 ### v1.2.5 (Murfasa)
-Added whitelist for steamIDs and IPs
-Added /clean command
-Refined /fix’s functionality
+- Added whitelist for steamIDs and IPs
+- Added /clean command
+- Refined /fix’s functionality
