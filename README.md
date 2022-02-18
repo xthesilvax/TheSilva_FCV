@@ -3,7 +3,7 @@
 ## Explaining the reason for the modification
 
 ## Installation
-Just put it in the base and start the script in the "**server.cfg**" file.
+Just put it in the base and start the script in the **"server.cfg"** file.
 ```
 start TheSilva_FCV
 ```
