@@ -4,23 +4,23 @@ AddEventHandler('chatMessage', function(source, n, msg)
 	if msg == "/fix" then
 		CancelEvent()
 		if TheSilva.everyoneAllowed == true then
-			TriggerClientEvent('murtaza:fix', source)
+			TriggerClientEvent('thesilva:fix', source)
 		else
 			if checkAllowed(identifier) then
-				TriggerClientEvent('murtaza:fix', source)
+				TriggerClientEvent('thesilva:fix', source)
 			else
-				TriggerClientEvent('murtaza:noPerms', source)
+				TriggerClientEvent('thesilva:noPerms', source)
 			end
 		end
 	elseif msg == "/clean" then 
 		CancelEvent()
 		if TheSilva.everyoneAllowed == true then
-			TriggerClientEvent('murtaza:clean', source)
+			TriggerClientEvent('thesilva:clean', source)
 		else
 			if checkAllowed(identifier) then
-				TriggerClientEvent('murtaza:clean', source)
+				TriggerClientEvent('thesilva:clean', source)
 			else
-				TriggerClientEvent('murtaza:noPerms', source)
+				TriggerClientEvent('thesilva:noPerms', source)
 			end
 		end
 	end
