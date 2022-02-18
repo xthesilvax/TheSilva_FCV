@@ -11,6 +11,8 @@ start TheSilva_FCV
 ## Usage
 If you are in a vehicle you can repair it with the **/fix** command or clean it with the **/clean** command.
 
+## Config
+
 ## Change Log
 ### v1.2.5 [Original] (Murfasa)
 - Added whitelist for steamIDs and IPs
