@@ -1,6 +1,3 @@
-TheSilva.Locale = 'en'
-TheSilva.Notifications = true -- true = enable notifications || false = disable notifications
-
 TheSilva.everyoneAllowed = false -- true = everyone is allowed || false = use steamIDs and IPs listed in allowed
 
 TheSilva.AllowedList = { 
