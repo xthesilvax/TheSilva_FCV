@@ -17,7 +17,7 @@ ensure TheSilva_FCV
 If you are in a vehicle you can repair it with the **/fix** command or clean it with the **/clean** command.
 
 ## Config
-Open the *"config.lua"* file and change what you need!
+Open the **"config.lua"** file and change what you need!
 
 **everyoneAllowed - It is False at default.**
   - **True** - Everyone is allowed to use the command, you do not need to add anyone to the allowed table
