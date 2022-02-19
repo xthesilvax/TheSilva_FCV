@@ -29,6 +29,8 @@ Open the **"config.lua"** file and change what you need!
 
 **AllowedList** - Enter your steam IDs and IPs. DO NOT forget the commas and do not add a comma at the end.
 
+**Translations** - English language by Default (Change if you need!)
+
 ## Change Log
 ### v1.2.5 [Original] (Murfasa)
 - Added whitelist for steamIDs and IPs
