@@ -19,9 +19,13 @@ If you are in a vehicle you can repair it with the **/fix** command or clean it 
 ## Config
 Open the **"config.lua"** file and change what you need!
 
-**everyoneAllowed** - It is False at default.
+**everyoneAllowed** - It is false at default.
   - **True** - Everyone is allowed to use the command, you do not need to add anyone to the allowed table
   - **False** - You need to add people to the allowed table to give them permission to use the table
+
+**Notifications** - It is true at default.
+  - **True** - All notifications appear for the player
+  - **False** - No notification will appear for the player
 
 **AllowedList** - Enter your steam IDs and IPs. DO NOT forget the commas and do not add a comma at the end.
 
