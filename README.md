@@ -8,6 +8,10 @@ Just put it in the base and start the script in the **"server.cfg"** file.
 ```
 start TheSilva_FCV
 ```
+**OR**
+```
+ensure TheSilva_FCV
+```
 
 ## Usage
 If you are in a vehicle you can repair it with the **/fix** command or clean it with the **/clean** command.
@@ -29,6 +33,7 @@ Open the *"config.lua"* file and change what you need!
 
 ### v1.0 [Modified]
 - Add a config file [(Without Mod)](https://prnt.sc/c_KNQ1EpqggF)
+
 
 # Made with ❤ by [TheSilva#4495](https://github.com/thesilvaofficial)
 
