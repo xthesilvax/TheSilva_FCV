@@ -6,9 +6,9 @@ AddEventHandler('thesilva:fix', function()
 		SetVehicleEngineHealth(vehicle, 1000)
 		SetVehicleEngineOn( vehicle, true, true )
 		SetVehicleFixed(vehicle)
-		Notify("~g~Your vehicle has been fixed!")
+		ShowNotification("~g~Your vehicle has been fixed!")
 	else
-		Notify("~o~You're not in a vehicle! There is no vehicle to fix!")
+		ShowNotification("~o~You're not in a vehicle! There is no vehicle to fix!")
 	end
 end)
 
@@ -18,18 +18,18 @@ AddEventHandler('thesilva:clean', function()
 	if IsPedInAnyVehicle(playerPed, false) then
 		local vehicle = GetVehiclePedIsIn(playerPed, false)
 		SetVehicleDirtLevel(vehicle, 0)
-		Notify("~b~Your vehicle has been cleaned!")
+		ShowNotification("~b~Your vehicle has been cleaned!")
 	else
-		Notify("~o~You're not in a vehicle! There is no vehicle to clean!")
+		ShowNotification("~o~You're not in a vehicle! There is no vehicle to clean!")
 	end
 end)
 
 RegisterNetEvent('thesilva:noPerms')
 AddEventHandler('thesilva:noPerms', function()
-	Notify("~r~You don't have permissions to do this to your vehicle.")
+	ShowNotification("~r~You don't have permissions to do this to your vehicle.")
 end)
 
-function Notify(text)
+function ShowNotification(text)
     SetNotificationTextEntry("STRING")
     AddTextComponentString(text)
     DrawNotification(false, false)
