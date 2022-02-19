@@ -1,6 +1,8 @@
 TheSilva = {}
 
-TheSilva.EveryoneAllowed = false -- true = everyone is allowed || false = use steamIDs and IPs listed in allowed
+TheSilva.EveryoneAllowed = true -- true = everyone is allowed || false = use steamIDs and IPs listed in allowed
+TheSilva.Notifications = false -- true = enable notifications || false = disable notifications
+
 
 TheSilva.AllowedList = { -- Enter your steam ids and ips as such. DO NOT forget the commas and do not add a comma at the end.
 	"steam:000000000000000", 
@@ -9,3 +11,6 @@ TheSilva.AllowedList = { -- Enter your steam ids and ips as such. DO NOT forget 
 	"ip:192.168.1.2",
 	"steam:000000000000003"
 }
+
+TheSilva.DistanceToCheckVehicle = 5.0 -- The distance to check in front of the player for a vehicle
+
