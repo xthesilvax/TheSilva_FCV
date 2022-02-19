@@ -3,7 +3,7 @@ AddEventHandler('chatMessage', function(source, n, msg)
 	local identifier = GetPlayerIdentifiers(source)[1]
 	if msg == "/fix" then
 		CancelEvent()
-		if TheSilva.everyoneAllowed == true then
+		if TheSilva.EveryoneAllowed == true then
 			TriggerClientEvent('thesilva:fix', source)
 		else
 			if checkAllowed(identifier) then
@@ -14,7 +14,7 @@ AddEventHandler('chatMessage', function(source, n, msg)
 		end
 	elseif msg == "/clean" then 
 		CancelEvent()
-		if TheSilva.everyoneAllowed == true then
+		if TheSilva.EveryoneAllowed == true then
 			TriggerClientEvent('thesilva:clean', source)
 		else
 			if checkAllowed(identifier) then
