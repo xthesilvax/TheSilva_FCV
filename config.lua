@@ -1,7 +1,7 @@
 TheSilva = {}
 
 TheSilva.EveryoneAllowed = true -- true = everyone is allowed || false = use steamIDs and IPs listed in allowed
-TheSilva.Notifications = false -- true = enable notifications || false = disable notifications
+TheSilva.Notifications = true -- true = enable notifications || false = disable notifications
 
 
 TheSilva.AllowedList = { -- Enter your steam ids and ips as such. DO NOT forget the commas and do not add a comma at the end.
