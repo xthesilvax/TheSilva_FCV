@@ -36,6 +36,7 @@ Open the **"config.lua"** file and change what you need!
 
 ### v1.1 [Modified]
 - Enable/Disable Notifications
+- Functionality to fix and clean the vehicle outside of it
 
 
 # Made with ❤ by [TheSilva#4495](https://github.com/thesilvaofficial)
