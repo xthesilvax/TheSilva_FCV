@@ -32,7 +32,7 @@ Open the **"config.lua"** file and change what you need!
 - Refined /fix’s functionality
 
 ### v1.0 [Modified]
-- Add a config file [(Without Mod)](https://prnt.sc/c_KNQ1EpqggF)
+- Add a config file [(Without Mod)](https://github.com/thesilvaofficial/TheSilva_FCV/blob/main/sreenshots/screenshot_1.png)
 
 
 # Made with ❤ by [TheSilva#4495](https://github.com/thesilvaofficial)
