@@ -27,7 +27,7 @@ Open the **"config.lua"** file and change what you need!
   - **True** - All notifications appear for the player
   - **False** - No notification will appear for the player
 
-**StaffGroup** - Put the name of the group you want to have access to the commands. (In the file "server.cfg" look for "add_ace" and put the second word that is there!)
+**StaffGroup** - Put the name of the group you want to have access to the commands. (In the file **"server.cfg"** look for **"add_ace"** and put the second word that is there!)
 
 **AllowedList** - Enter your steam IDs and IPs. DO NOT forget the commas and do not add a comma at the end.
 
