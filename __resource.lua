@@ -12,5 +12,6 @@ client_scripts {
 }
 
 name 'TheSilva_FCV'
+version '1.0'
 description 'Fix and Clean Command.'
 author 'TheSilvaDev'
