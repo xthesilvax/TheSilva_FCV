@@ -10,3 +10,7 @@ client_scripts {
 	'client/main.lua', 
 	'config.lua' 
 }
+
+name 'TheSilva_FCV'
+description 'Fix and Clean Command.'
+author 'TheSilvaDev'
