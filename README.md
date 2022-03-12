@@ -47,6 +47,9 @@ Open the **"config.lua"** file and change what you need!
 - Functionality to fix and clean the vehicle outside of it
 - Translate the notifications in the **"config.lua"** file
 
+### v1.2 [Modified]
+
+
 
 # Made with ❤ by [TheSilva#4495](https://github.com/thesilvaofficial)
 
