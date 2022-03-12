@@ -48,7 +48,7 @@ Open the **"config.lua"** file and change what you need!
 - Translate the notifications in the **"config.lua"** file
 
 ### v1.2 [Modified]
-
+- Add specific staff group have acess to commands
 
 
 # Made with ❤ by [TheSilva#4495](https://github.com/thesilvaofficial)
